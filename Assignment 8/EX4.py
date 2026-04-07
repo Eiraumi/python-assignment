@@ -19,7 +19,6 @@ class Car:
     def drive(self, hours):
         self.travelled_distance += self.current_speed * hours
 
-
 # race class
 class Race:
     def __init__(self, name, distance, cars):
@@ -44,7 +43,6 @@ class Race:
             if car.travelled_distance >= self.distance:
                 return True
         return False
-
 
 # phần chính
 cars = []
